@@ -53,20 +53,51 @@ _combination of **bold** and italized_
 ```
 1. first item
 2. second item
-  1. second item a (indent: 2 spaces)
-  2. second item b
-  3. second item c
+   1. second item a
+   2. second item b
+   3. second item c
 3. third item
-  1. third item a (indent: 2 spaces)
-  2. third item b
-  3. third item c
+   1. third item a
+   2. third item b
+   3. third item c
 ```
 1. first item
 2. second item
-  1. second item a (indent: 2 spaces)
-  2. second item b
-  3. second item c
+   1. second item a
+   2. second item b
+   3. second item c
 3. third item
-  1. third item a (indent: 2 spaces)
-  2. third item b
-  3. third item c
+   1. third item a
+   2. third item b
+   3. third item c
+
+## Unordered Lists:
+
+```
+* first item
+* second item
+* third item
+```
+* first item
+* second item
+* third item
+```
+* first item
+* second item
+   * second item a
+   * second item b
+   * second item c
+* third item
+   * third item a
+   * third item b
+   * third item c
+```
+* first item
+* second item
+   * second item a
+   * second item b
+   * second item c
+* third item
+   * third item a
+   * third item b
+   * third item c
