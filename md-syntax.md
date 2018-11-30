@@ -101,3 +101,27 @@ _combination of **bold** and italized_
    * third item a
    * third item b
    * third item c
+
+   ## Task Lists:
+   ```
+   * [ ] unchecked item 1
+   * [ ] unchecked item 2
+   * [x] checked item 3
+   ```
+   * [ ] unchecked item 1
+   * [ ] unchecked item 2
+   * [x] checked item 3
+   ```
+   * [ ] unchecked item 1
+        * [ ] subitem 1a
+        * [ ] subitem 1b
+   * [ ] unchecked item 2
+   * [x] checked item 3
+        * [x] subitem 3a
+   ```
+   * [ ] unchecked item 1
+        * [ ] subitem 1a
+        * [ ] subitem 1b
+   * [ ] unchecked item 2
+   * [x] checked item 3
+        * [x] subitem 3a
