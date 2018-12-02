@@ -104,47 +104,28 @@ _combination of **bold** and italized_
 
 ## Task Lists:
 
-   ```
-   * [ ] unchecked item 1
-   * [ ] unchecked item 2
-   * [x] checked item 3
-   ```
-   * [ ] unchecked item 1
-   * [ ] unchecked item 2
-   * [x] checked item 3
-   ```
-   * [ ] unchecked item 1
-        * [ ] subitem 1a
-        * [ ] subitem 1b
-   * [ ] unchecked item 2
-   * [x] checked item 3
-        * [x] subitem 3a
-   ```
-   * [ ] unchecked item 1
-        * [ ] subitem 1a
-        * [ ] subitem 1b
-   * [ ] unchecked item 2
-   * [x] checked item 3
-        * [x] subitem 3a
-   ```
-   1. [ ] unchecked item 1
-   2. [ ] unchecked item 2
-   3. [x] checked item 3
-   ```
-   1. [ ] unchecked item 1
-   2. [ ] unchecked item 2
-   3. [x] checked item 3
-   ```
-   1. [ ] unchecked item 1
-        1. [ ] subitem 1a
-        2. [ ] subitem 1b
-   2. [ ] unchecked item 2
-   3. [x] checked item 3
-        1. [x] subitem 3a
-   ```
-   1. [ ] unchecked item 1
-        1. [ ] subitem 1a
-        2. [ ] subitem 1b
-   2. [ ] unchecked item 2
-   3. [x] checked item 3
-        1. [x] subitem 3a
+```
+* [ ] unchecked item 1
+* [x] checked item 2
+* [x] checked item 3
+```
+
+* [ ] unchecked item 1
+* [x] checked item 2
+* [x] checked item 3
+
+```
+* [ ] unchecked item 1
+    * [ ] subitem 1a
+    * [ ] subitem 1b
+* [x] checked item 2
+* [x] checked item 3
+    * [x] subitem 3a
+```
+
+* [ ] unchecked item 1
+    * [ ] subitem 1a
+    * [ ] subitem 1b
+* [x] checked item 2
+* [x] checked item 3
+    * [x] subitem 3a
