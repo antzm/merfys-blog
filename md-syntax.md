@@ -129,3 +129,17 @@ _combination of **bold** and italized_
 * [x] checked item 2
 * [x] checked item 3
     * [x] subitem 3a
+
+## Tables:
+```
+header one | header two | header three
+-----------|------------| ------------
+first item in #1 | first item in #2 | first item in # 3
+second item in # 1 | second item in # 2 | second item in # 3
+third item in # 1 | third item in # 2 | third itemm in # 3
+```
+header one | header two | header three
+-----------|------------| ------------
+first item in #1 | first item in #2 | first item in # 3
+second item in # 1 | second item in # 2 | second item in # 3
+third item in # 1 | third item in # 2 | third itemm in # 3
