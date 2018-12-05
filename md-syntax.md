@@ -157,3 +157,54 @@ item 1a | item 2a | item 3a
 item 1b | item 2b | item 3b
 item 1c | item 2c | item 3c
 
+## Code highlighting:
+
+````
+```javascript
+for (i=0; i<10; i++) {
+  console.log(i);
+}
+```
+````
+
+```javascript
+for (i=0; i<10; i++) {
+  console.log(i);
+}
+```
+
+````
+```html
+<section class="intro">
+   <h1 class="intro-heading">intro heading</h1>
+   <p class="intro-text">intro text</p>
+</section>
+```
+````
+
+```html
+<section class="intro">
+   <h1 class="intro-heading">intro heading</h1>
+   <p class="intro-text">intro text</p>
+</section>
+```
+
+````
+```css
+.intro {
+   margin: 0;
+   padding: 0;
+   color: #1f3d7a;
+   font: Verdana, Arial, sans-serif;
+}
+```
+````
+
+```css
+.intro {
+   margin: 0;
+   padding: 0;
+   color: #1f3d7a;
+   font: Verdana, Arial, sans-serif;
+}
+```
