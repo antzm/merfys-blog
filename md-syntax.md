@@ -157,8 +157,29 @@ item 1a | item 2a | item 3a
 item 1b | item 2b | item 3b
 item 1c | item 2c | item 3c
 
+## Code:
+
+`` this is an `inline code` example ``
+
+this is an `inline code` example
+
+````
+```
+This is a longer
+
+code example
+```
+````
+
+```
+This is a longer
+
+code example
+```
+
 ## Code highlighting:
 
+### JavaScript:
 ````
 ```javascript
 for (i=0; i<10; i++) {
@@ -173,6 +194,7 @@ for (i=0; i<10; i++) {
 }
 ```
 
+### HTML:
 ````
 ```html
 <section class="intro">
@@ -189,6 +211,7 @@ for (i=0; i<10; i++) {
 </section>
 ```
 
+### CSS:
 ````
 ```css
 .intro {
