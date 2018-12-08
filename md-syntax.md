@@ -231,3 +231,15 @@ for (i=0; i<10; i++) {
    font: Verdana, Arial, sans-serif;
 }
 ```
+
+## Links:
+
+```
+https://www.google.com
+```
+https://www.google.com
+
+```
+[GitHub](http://github.com)
+```
+[GitHub](http://github.com)
