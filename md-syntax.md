@@ -243,3 +243,13 @@ https://www.google.com
 [GitHub](http://github.com)
 ```
 [GitHub](http://github.com)
+
+## Quote:
+
+```
+>“We change the world not by what we say or do, but as a consequence of what we have become.”
+— David R. Hawkins
+```
+>“We change the world not by what we say or do, but as a consequence of what we have become.”
+— David R. Hawkins
+
