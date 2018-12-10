@@ -253,3 +253,10 @@ https://www.google.com
 >“We change the world not by what we say or do, but as a consequence of what we have become.”
 — David R. Hawkins
 
+## Images:
+
+```
+![a black cat sitting next to a computer mouse](DSC_1609.jpg)
+```
+
+![a black cat sitting next to a computer mouse](DSC_1609.jpg)
