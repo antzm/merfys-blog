@@ -256,7 +256,7 @@ https://www.google.com
 ## Images:
 
 ```
-![a black cat sitting next to a computer mouse](DSC_1609.jpg)
+![a black cat sitting next to a white computer mouse](DSC_1609.jpg)
 ```
 
-![a black cat sitting next to a computer mouse](DSC_1609.jpg)
+![a black cat sitting next to a white computer mouse](DSC_1609.jpg)
