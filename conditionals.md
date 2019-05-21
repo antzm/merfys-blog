@@ -132,6 +132,8 @@ Then, it checks the operator which is ||
 After that, it returns the result of the first expression.
 
 
+## Evaluation of multiple expressions
+
 Now, whenever there are more than two expressions,
 JS uses the same process.
 It evaluates an expression to true or false,
@@ -153,7 +155,7 @@ be reurned or it may be compared with the
 result of the next expression and so on...
 
 
-## Example A:
+### Example A:
 
 ```
 const a = 10;
@@ -188,7 +190,7 @@ undeclared variables.
 
 
 
-## Example B:
+### Example B:
 
 ```
 const a=10;
