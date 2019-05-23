@@ -131,7 +131,7 @@ console.log(x === 3 || z === 8);
    a runtime error.
 
 
-## Note:
+## Detailed process:
 
 To test a conditional statement,
 (firstExpression OPERATOR secondExpression)
@@ -144,31 +144,33 @@ Then, it always checks the operator.
 Depending on the result of the first expression
 and the type of operator, it either returns
 the result of the first expression and stops,
-or, it continues and evaluate the second expression,
-and then it returns the result of the second expression
+or, it continues to the second expression,
+so, it evaluates the second expression and 
+then returns the result of the second expression.
 
-### Example i:
-(true && ???)
+
+### Example i:  
+(true && ???)  
 JS evaluates the first expression, which is true.
 Then, it checks the operator which is &&
 After that, it continues to the second expression and returns
 the result of the second expression.
 
-### Example ii:
-(false && ???)
+### Example ii:  
+(false && ???)  
 JS evaluates the first expression, which is false.
 Then, it checks the operator which is &&
 After that, it returns the result of the first expression.
 
-### Example iii:
-(false || ???)
+### Example iii:  
+(false || ???)  
 JS evaluates the first expression, which is false.
 Then, it checks the operator, which is ||
 After that, it continues to the second expression and returns
 the result of the second expression.
 
-### Example iv:
-(true || ???)
+### Example iv:  
+(true || ???)  
 JS evaluates the first expression, which is true.
 Then, it checks the operator which is ||
 After that, it returns the result of the first expression.
