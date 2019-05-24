@@ -251,28 +251,28 @@ if ((a === 10 || a === 15) && (b === 20 || b === 25) && (c === 30 || c === 35)) 
 
 ```
 
-JavaScript tests 'a === 10', which is true.
+JavaScript tests `a === 10`, which is `true`.
 Then, it checks which operator is next.
-Now, because the operator is ||
+Now, because the operator is `||`
 the evaluation of the first parenthesis stops
-and the result is true.
+and the result is `true`.
 
-Going out of the first parenthesis, there is a && operator
+Going out of the first parenthesis, there is a `&&` operator
 To reach a safe conclusion about the conditional statement,
-JavaScript needs to evaluate what lies after the && operator.
-It checks for 'b === 20' which is false.
-So up to now, the value of the conditional is false
-but there is a || next, so to reach a safe conclusion,
-what lies after the || needs to be evaluated.
-But 'b === 25' is false, so the whole conditional up 
-to this point is false.
+JavaScript needs to evaluate what lies after the `&&` operator.
+It checks for `b === 20` which is `false`.
+So up to now, the value of the conditional is `false`
+but there is a `||` next, so to reach a safe conclusion,
+what lies after the `||` needs to be evaluated.
+But `b === 25` is `false`, so the whole conditional up 
+to this point is `false`.
 
-Next, there is a && operator.
-So, JavaScript is right now at the second &&
+Next, there is a `&&` operator.
+So, JavaScript is right now at the second `&&`
 and the left side of the expression,
-up to this point is false.
+up to this point is `false`.
 So, there is no need to continue.
 Regardless of what lies at the right side
-of the second &&, the conditional statement
-is false. So, JavaScript stops and returns false,
+of the second `&&`, the conditional statement
+is `false`. So, JavaScript stops and returns `false`,
 without needing to evaluate the last expression.
