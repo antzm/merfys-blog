@@ -150,29 +150,29 @@ then returns the result of the second expression.
 
 
 ### Example i:  
-(true && ???)  
-JS evaluates the first expression, which is true.
-Then, it checks the operator which is &&
+`(true && ???)`  
+JS evaluates the first expression, which is `true`.
+Then, it checks the operator which is `&&`
 After that, it continues to the second expression and returns
 the result of the second expression.
 
 ### Example ii:  
-(false && ???)  
-JS evaluates the first expression, which is false.
-Then, it checks the operator which is &&
+`(false && ???)`  
+JS evaluates the first expression, which is `false`.
+Then, it checks the operator which is `&&`
 After that, it returns the result of the first expression.
 
 ### Example iii:  
-(false || ???)  
-JS evaluates the first expression, which is false.
-Then, it checks the operator, which is ||
+`(false || ???)`  
+JS evaluates the first expression, which is `false`.
+Then, it checks the operator, which is `||`
 After that, it continues to the second expression and returns
 the result of the second expression.
 
 ### Example iv:  
-(true || ???)  
-JS evaluates the first expression, which is true.
-Then, it checks the operator which is ||
+`(true || ???)`  
+JS evaluates the first expression, which is `true`.
+Then, it checks the operator which is `||`
 After that, it returns the result of the first expression.
 
 
@@ -211,24 +211,25 @@ if (a === 10 || a === 15 && b === 20 || b === 25 && c === 30 || c === 35) {
 } else {
    console.log("the conditional statement is false");
 }
+
 // console logs: "the conditional statement is true"
 
 ```
 
-JavaScript tests 'a === 10' which is true.
+JavaScript tests `a === 10` which is `true`.
 Then, it checks for the next operator.
-Now, because the operator is ||
-it means that this expression is true,
-regardless of what lies on the right side of the ||
+Now, because the operator is `||`
+it means that this expression is `true`,
+regardless of what lies on the right side of the `||`
 So, JavaScript stops the evaluation of
-the conditional statement and returns true.
+the conditional statement and returns `true`.
 
-This means that the code after the first ||
+This means that the code after the first `||`
 will not run at all.
 To verify this, we could simply delete
 the variable declarations
-var b = 2000; and var c = 3000;
-and run the code in a NEW console window,
+`const b = 2000;` and `const c = 3000;`
+and run the code in a new console window,
 and we will notice that the code will run
 without throwing an error for 
 undeclared variables.
@@ -247,6 +248,7 @@ if ((a === 10 || a === 15) && (b === 20 || b === 25) && (c === 30 || c === 35)) 
 } else {
    console.log("the conditional statement is false");
 }
+
 // console logs: "the conditional statement is false"
 
 ```
