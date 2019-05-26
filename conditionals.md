@@ -11,6 +11,7 @@ const x = 1;
 const y = 2;
 
 console.log(x === 1 && y === 2);
+
 // console logs: true
 
 ```
@@ -27,10 +28,10 @@ console.log(x === 1 && y === 2);
 
 ```
 const x = 1;
-const y = 2;
 // z should not be declared
 
 console.log(x === 3 && z === 8);
+
 // console logs: false
 
 ```
@@ -49,10 +50,10 @@ console.log(x === 3 && z === 8);
 
 ```
 const x = 1;
-const y = 2;
 // z should not be declared
 
 console.log(x === 1 && z === 8);
+
 // Uncaught ReferenceError: z is not defined
 
 ```
@@ -72,10 +73,10 @@ console.log(x === 1 && z === 8);
 
 ```
 const x = 1;
-const y = 2;
 // z should not be declared
 
 console.log(x === 1 || z === 8);
+
 // console logs: true
 
 ```
@@ -94,7 +95,6 @@ console.log(x === 1 || z === 8);
 ```
 const x = 1;
 const y = 2;
-// z should not be declared
 
 console.log(x === 3 || y === 5);
 // console logs: false
@@ -113,7 +113,6 @@ console.log(x === 3 || y === 5);
 
 ```
 const x = 1;
-const y = 2;
 // z should not be declared
 
 console.log(x === 3 || z === 8);
