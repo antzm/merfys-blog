@@ -17,7 +17,7 @@ console.log(x === 1 && y === 2);
 ```
 1. JavaScript evaluates `x===1` to `true`
 2. After that, it checks the type of operator
-3. The operator is &&, so JS needs to continue
+3. The operator is `&&`, so JS needs to continue
    and test the second expression
    in order to reach a safe conclusion
    about he conditional statement.
@@ -37,7 +37,7 @@ console.log(x === 3 && z === 8);
 ```
 1. JavaScript evaluates `x===3` to `false`
 2. After that, it checks the type of operator
-3. The operator is &&, so JS stops here,
+3. The operator is `&&`, so JS stops here,
    as it has already reached a safe conclusion
    about the conditional statement.
    So, it doesn't evaluate the second expression
@@ -59,7 +59,7 @@ console.log(x === 1 && z === 8);
 ```
 1. JavaScript evaluates `x===1` to `true`
 2. After that, it checks the type of operator
-3. The operator is &&, so JS needs to continue
+3. The operator is `&&`, so JS needs to continue
    in order to reach a safe conclusion
    about he conditional statement.
 4. It tries to evaluate `z===8` but,
@@ -82,7 +82,7 @@ console.log(x === 1 || z === 8);
 ```
 1. JavaScript evaluates `x===1` to `true`
 2. After that, it checks the type of operator
-3. The operator is || so JS stops here,
+3. The operator is `||` so JS stops here,
    as it has already reached a safe conclusion
    about he conditional statement.
    It doesn't evaluate the sceond expression
@@ -102,7 +102,7 @@ console.log(x === 3 || y === 5);
 ```
 1. JavaScript evaluates `x===3` to `false`
 2. After that, it checks the type of operator
-3. The operator is || so JS needs to continue
+3. The operator is `||` so JS needs to continue
    and test the second expression,
    in order to reach a safe conclusion
    about he conditional statement.
@@ -121,7 +121,7 @@ console.log(x === 3 || z === 8);
 ```
 1. JavaScript evaluates `x===3` to `false`
 2. After that, it checks the type of operator
-3. The operator is || so JS needs to continue
+3. The operator is `||` so JS needs to continue
    and test the second expression,
    in order to reach a safe conclusion
    about he conditional statement.
@@ -130,10 +130,10 @@ console.log(x === 3 || z === 8);
    a runtime error.
 
 
-## Detailed process:
+## The evaluation process in detail:
 
 To test a conditional statement,
-(firstExpression OPERATOR secondExpression)
+`(firstExpression OPERATOR secondExpression)`
 JavaScript does not compare the two expressions side by side.
 
 It rather uses this process:
