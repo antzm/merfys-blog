@@ -90,7 +90,7 @@ console.log(x === 1 || z === 8);
    a runtime error as z is not defined.
 4. So, it returns the value of `x===1`, which is true.
 
-## Exapme 5
+## Example 5
 
 ```
 const x = 1;
@@ -178,14 +178,14 @@ After that, it returns the result of the first expression.
 # Evaluation of multiple expressions
 
 Now, whenever there are more than two expressions,
-JS uses the same process.
+JS uses the same process.  
 It evaluates an expression to true or false,
 checks the next operator, and then it may
 continue to evaluate the next expression,
-or it may return the result of the last evaluation.
+or it may return the result of the last evaluation.  
 JS evaluates the expressions starting from 
 the left side of the conditional statement
-and going towards the right.
+and going towards the right.  
 For example, when JS evaluates a very long
 conditional statement and has reached the middle of it,
 having already evaluated noumerous expressions,
