@@ -139,7 +139,8 @@ JavaScript does not compare the two expressions side by side.
 It rather uses this process:
 
 It always evaluates the first expression.
-Then, it always checks the operator.
+Then, it always checks the operator.  
+
 Depending on the result of the first expression
 and the type of operator, it either returns
 the result of the first expression and stops,
@@ -150,35 +151,36 @@ then returns the result of the second expression.
 
 ### Example i:  
 `(true && ???)`  
-JS evaluates the first expression, which is `true`.
-Then, it checks the operator which is `&&`
-After that, it continues to the second expression and returns
-the result of the second expression.
+JS evaluates the first expression, which is `true`.  
+Then, it checks the operator which is `&&`  
+After that, it continues to the second expression and returns  
+the result of the second expression.  
 
 ### Example ii:  
 `(false && ???)`  
-JS evaluates the first expression, which is `false`.
-Then, it checks the operator which is `&&`
-After that, it returns the result of the first expression.
+JS evaluates the first expression, which is `false`.  
+Then, it checks the operator which is `&&`  
+After that, it returns the result of the first expression.  
 
 ### Example iii:  
 `(false || ???)`  
-JS evaluates the first expression, which is `false`.
-Then, it checks the operator, which is `||`
-After that, it continues to the second expression and returns
-the result of the second expression.
+JS evaluates the first expression, which is `false`.  
+Then, it checks the operator, which is `||`  
+After that, it continues to the second expression and returns  
+the result of the second expression.  
 
 ### Example iv:  
 `(true || ???)`  
-JS evaluates the first expression, which is `true`.
-Then, it checks the operator which is `||`
-After that, it returns the result of the first expression.
+JS evaluates the first expression, which is `true`.  
+Then, it checks the operator which is `||`  
+After that, it returns the result of the first expression.  
 
 
 # Evaluation of multiple expressions
 
 Now, whenever there are more than two expressions,
 JS uses the same process.  
+
 It evaluates an expression to true or false,
 checks the next operator, and then it may
 continue to evaluate the next expression,
@@ -186,6 +188,7 @@ or it may return the result of the last evaluation.
 JS evaluates the expressions starting from 
 the left side of the conditional statement
 and going towards the right.  
+
 For example, when JS evaluates a very long
 conditional statement and has reached the middle of it,
 having already evaluated noumerous expressions,
