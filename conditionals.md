@@ -138,15 +138,15 @@ JavaScript does not compare the two expressions side by side.
 
 It rather uses this process:
 
-It always evaluates the first expression.
+It always evaluates the first expression.  
 Then, it always checks the operator.  
 
-Depending on the result of the first expression
-and the type of operator, it either returns
-the result of the first expression and stops,
-or, it continues to the second expression,
-so, it evaluates the second expression and 
-then returns the result of the second expression.
+Depending on the result of the first expression  
+and the type of operator, it either returns  
+the result of the first expression and stops,  
+or, it continues to the second expression,  
+so, it evaluates the second expression and  
+then returns the result of the second expression.  
 
 
 ### Example i:  
@@ -224,7 +224,7 @@ Now, because the operator is `||`
 it means that this expression is `true`,
 regardless of what lies on the right side of the `||`
 So, JavaScript stops the evaluation of
-the conditional statement and returns `true`.
+the conditional statement and returns `true`.  
 
 This means that the code after the first `||`
 will not run at all.
