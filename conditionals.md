@@ -15,14 +15,14 @@ console.log(x === 1 && y === 2);
 // console logs: true
 
 ```
-1. JavaScript evaluates `x===1` to `true`
-2. After that, it checks the type of operator
-3. The operator is `&&`, so JS needs to continue
-   and test the second expression
-   in order to reach a safe conclusion
-   about he conditional statement.
-4. It evaluates `y===2` to true
-5. So, it returns the value of `y===2`, which is true
+1. JavaScript evaluates `x===1` to `true`  
+2. After that, it checks the type of operator  
+3. The operator is `&&`, so JS needs to continue  
+   and test the second expression  
+   in order to reach a safe conclusion  
+   about he conditional statement.  
+4. It evaluates `y===2` to true  
+5. So, it returns the value of `y===2`, which is true  
 
 ## Example 2
 
@@ -35,15 +35,15 @@ console.log(x === 3 && z === 8);
 // console logs: false
 
 ```
-1. JavaScript evaluates `x===3` to `false`
-2. After that, it checks the type of operator
-3. The operator is `&&`, so JS stops here,
-   as it has already reached a safe conclusion
-   about the conditional statement.
-   So, it doesn't evaluate the second expression
-   because regardless of the reuslt, 
-   the conditional statement wiil be false.
-4. It returns the value of `x===3`, which is `false`
+1. JavaScript evaluates `x===3` to `false`  
+2. After that, it checks the type of operator  
+3. The operator is `&&`, so JS stops here,  
+   as it has already reached a safe conclusion  
+   about the conditional statement.  
+   So, it doesn't evaluate the second expression  
+   because regardless of the reuslt,   
+   the conditional statement wiil be false.  
+4. It returns the value of `x===3`, which is `false`  
 
 
 ## Example 3
@@ -57,17 +57,17 @@ console.log(x === 1 && z === 8);
 // Uncaught ReferenceError: z is not defined
 
 ```
-1. JavaScript evaluates `x===1` to `true`
-2. After that, it checks the type of operator
-3. The operator is `&&`, so JS needs to continue
-   in order to reach a safe conclusion
-   about he conditional statement.
-4. It tries to evaluate `z===8` but,
-   as `z` has not been defined, it throws
-   a runtime error.
-   That error, didin't appear in the previous
-   example because JS didn't run that part of
-   the code.
+1. JavaScript evaluates `x===1` to `true`  
+2. After that, it checks the type of operator  
+3. The operator is `&&`, so JS needs to continue  
+   in order to reach a safe conclusion  
+   about he conditional statement.  
+4. It tries to evaluate `z===8` but,  
+   as `z` has not been defined, it throws  
+   a runtime error.  
+   That error, didin't appear in the previous  
+   example because JS didn't run that part of  
+   the code.  
 
 ## Example 4
 
@@ -80,15 +80,15 @@ console.log(x === 1 || z === 8);
 // console logs: true
 
 ```
-1. JavaScript evaluates `x===1` to `true`
-2. After that, it checks the type of operator
-3. The operator is `||` so JS stops here,
-   as it has already reached a safe conclusion
-   about he conditional statement.
-   It doesn't evaluate the sceond expression
-   and for this reason it doesn't throw
-   a runtime error as z is not defined.
-4. So, it returns the value of `x===1`, which is true.
+1. JavaScript evaluates `x===1` to `true`  
+2. After that, it checks the type of operator  
+3. The operator is `||` so JS stops here,    
+   as it has already reached a safe conclusion    
+   about he conditional statement.  
+   It doesn't evaluate the sceond expression   
+   and for this reason it doesn't throw  
+   a runtime error as z is not defined.  
+4. So, it returns the value of `x===1`, which is true.  
 
 ## Example 5
 
@@ -100,14 +100,14 @@ console.log(x === 3 || y === 5);
 // console logs: false
 
 ```
-1. JavaScript evaluates `x===3` to `false`
-2. After that, it checks the type of operator
-3. The operator is `||` so JS needs to continue
-   and test the second expression,
-   in order to reach a safe conclusion
-   about he conditional statement.
-4. It evaluates `y===5` to false
-5. So, it returns the value of `y===5`, which is false
+1. JavaScript evaluates `x===3` to `false`  
+2. After that, it checks the type of operator  
+3. The operator is `||` so JS needs to continue  
+   and test the second expression,  
+   in order to reach a safe conclusion  
+   about he conditional statement.  
+4. It evaluates `y===5` to false  
+5. So, it returns the value of `y===5`, which is false  
 
 ## Example 6
 
@@ -119,15 +119,15 @@ console.log(x === 3 || z === 8);
 // Uncaught ReferenceError: z is not defined
 
 ```
-1. JavaScript evaluates `x===3` to `false`
-2. After that, it checks the type of operator
-3. The operator is `||` so JS needs to continue
-   and test the second expression,
-   in order to reach a safe conclusion
-   about he conditional statement.
-4. It tries to evaluate `z===8` but,
-   as `z` has not been defined, it throws
-   a runtime error.
+1. JavaScript evaluates `x===3` to `false`  
+2. After that, it checks the type of operator  
+3. The operator is `||` so JS needs to continue  
+   and test the second expression,  
+   in order to reach a safe conclusion  
+   about he conditional statement.  
+4. It tries to evaluate `z===8` but,  
+   as `z` has not been defined, it throws  
+   a runtime error.  
 
 
 ## The evaluation process in detail:
